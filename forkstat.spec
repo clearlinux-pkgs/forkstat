@@ -7,7 +7,7 @@ Version  : 0.03.00
 Release  : 1
 URL      : https://github.com/ColinIanKing/forkstat/archive/refs/tags/V0.03.00.tar.gz
 Source0  : https://github.com/ColinIanKing/forkstat/archive/refs/tags/V0.03.00.tar.gz
-Summary  : No detailed summary available
+Summary  : forkstat is a program that logs process fork(), exec() and exit() activity.
 Group    : Development/Tools
 License  : GPL-2.0
 Requires: forkstat-bin = %{version}-%{release}
