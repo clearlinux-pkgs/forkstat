@@ -4,7 +4,7 @@
 #
 Name     : forkstat
 Version  : 0.03.01
-Release  : 2
+Release  : 3
 URL      : https://github.com/ColinIanKing/forkstat/archive/refs/tags/V0.03.01.tar.gz
 Source0  : https://github.com/ColinIanKing/forkstat/archive/refs/tags/V0.03.01.tar.gz
 Summary  : No detailed summary available
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1676039939
+export SOURCE_DATE_EPOCH=1676385038
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -78,7 +78,7 @@ make  %{?_smp_mflags}
 
 
 %install
-export SOURCE_DATE_EPOCH=1676039939
+export SOURCE_DATE_EPOCH=1676385038
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/forkstat
 cp %{_builddir}/forkstat-%{version}/COPYING %{buildroot}/usr/share/package-licenses/forkstat/4cc77b90af91e615a64ae04893fdffa7939db84c || :
